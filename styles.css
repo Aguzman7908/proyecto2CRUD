@@ -241,6 +241,27 @@ cuadroTexto{
         width: 100px;
         font-size:small;
     }   
+
+    table{
+        border:3px dashed goldenrod;  
+      }
+      /*Vamos a ocultar la segunda columna*/
+      table tr td:nth-child(2), table tr th:nth-child(2){
+        border:1px dashed darkgreen;
+        /*Quita esta linea y mira que pasa :)*/display:none;
+      }
+      /*Vamos a ocultar la segunda columna*/
+      table tr td:nth-child(3), table tr th:nth-child(3){
+        border:1px dashed darkgreen;
+        /*Quita esta linea y mira que pasa :)*/display:none;
+      }
+      /*Vamos a ocultar la segunda columna*/
+      table tr td:nth-child(4), table tr th:nth-child(4){
+        border:1px dashed darkgreen;
+        /*Quita esta linea y mira que pasa :)*/display:none;
+      }
+      
+      
 }
  
 
@@ -281,7 +302,27 @@ cuadroTexto{
         width: 100px;
         font-size:small;
     }   
- 
 
+    table{
+        border:3px dashed goldenrod;  
+      }
+      /*Vamos a ocultar la segunda columna*/
+      table tr td:nth-child(2), table tr th:nth-child(2){
+        border:1px dashed darkgreen;
+        /*Quita esta linea y mira que pasa :)*/display:none;
+      }
+      /*Vamos a ocultar la segunda columna*/
+      table tr td:nth-child(3), table tr th:nth-child(3){
+        border:1px dashed darkgreen;
+        /*Quita esta linea y mira que pasa :)*/display:none;
+      }
+      /*Vamos a ocultar la segunda columna*/
+      table tr td:nth-child(4), table tr th:nth-child(4){
+        border:1px dashed darkgreen;
+        /*Quita esta linea y mira que pasa :)*/display:none;
+      }
+      
+      
+    
 }
 
