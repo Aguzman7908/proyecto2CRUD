@@ -1,6 +1,4 @@
-body{
-    margin: 20;
-}
+
 
 td{
     padding: 0 15px;
@@ -49,23 +47,31 @@ img{
 
 
 
-.jumbotron{
+.section{
     display: flex;
     /*flex-wrap:wrap;*/
-    height: 700px;
+    height: 100px;
     /*background-color:blue;*/
     /*border-radius: 16px;*/
     justify-content: space-between;
 }
 
 h1{
-    color: white;
+    color: black;
     
 }
 
-h2{
+etiqueta{
     color: black;
+    font: 100;
 }
+
+cuadroTexto{
+    width: 228px;
+    height: 98px;
+}
+
+
 .renglon {
     line-height: 30px;
     color: white;
@@ -103,9 +109,12 @@ h2{
     font-size: 90%;
   }
   .boton{
-    border-radius: 5px;
-    height: 100%;
-    width: 90%;
+    flex-wrap:wrap;
+    
+    
+    border-radius: 16px;
+    height:100%
+    width: 100%;
   }
 
   .blog1{
@@ -121,8 +130,8 @@ h2{
 
 .tituloblog{
     font-size:xx-large;
-    
     text-align: center;
+    color: white;
 }
 
 
@@ -309,26 +318,6 @@ h2{
         margin: 0 auto;
     }
 
-    .venn1 {
-        
-        width: 100px;
-        height: 100px;
-       
-    }
-    
-    .venn2 {
-        
-        width: 100px;
-        height: 100px;
-    }
-
-    .venn3 {
-        
-        width: 100px;
-        height: 100px;
-        }
-
-      
-
+   
 
 }
