@@ -1,0 +1,334 @@
+body{
+    margin: 20;
+}
+
+td{
+    padding: 0 15px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+.header{
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+
+.header-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; /* Esto va a centrar de manera horizontal*/
+}
+.nav{
+    display: flex;
+    justify-content: flex-end
+}
+
+.header-content li {
+    list-style: none;
+    justify-content: flex-end;
+    font-size: large;
+    font-style:inherit;
+   }
+
+.header-content ul {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    line-height: 100px;
+   }
+
+.header-content li:hover {
+    color:chartreuse;
+    cursor: pointer;
+    }
+
+
+
+
+.jumbotron{
+    display: flex;
+    /*flex-wrap:wrap;*/
+    height: 700px;
+    /*background-color:blue;*/
+    /*border-radius: 16px;*/
+    justify-content: space-between;
+}
+
+h1{
+    color: white;
+    
+}
+
+h2{
+    color: black;
+}
+.renglon {
+    line-height: 30px;
+    color: white;
+    display:block;
+    display:inline-block;
+    width: 600px;
+    
+   
+}
+
+  .one {
+    /*flex: 1 1 auto;*/
+    flex: 1;
+    background-color:black;
+    /*height: 700px;*/
+    
+  }
+
+  .two {
+    /*flex: 1 2 auto;*/
+    flex: 2;
+    background-image: url("./jumbotron.jpg"); /* me sirve para poner la imagen*/
+    /*height: 700px;*/
+    background-size: cover;
+  }
+
+  .sm{
+    display: flex;
+    justify-content: space-around
+  }
+  .cuadrotexto{
+    border-radius: 5px;
+    height: 90%;
+    width: 90%;
+    font-size: 90%;
+  }
+  .boton{
+    border-radius: 5px;
+    height: 100%;
+    width: 90%;
+  }
+
+  .blog1{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 50px;
+    /*height: 200%;*/
+    background-color:white;
+    border-radius: 16px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.tituloblog{
+    font-size:xx-large;
+    
+    text-align: center;
+}
+
+
+.lista{
+    font-size:x-large;
+    color: black;
+    list-style: none;
+    
+    
+}
+.caja1 {
+    /*flex: 1;*/
+    /*margin: 0 10px;*/
+    background-image: url("./telecom.jpg");
+    /*background-color:green;*/
+    height: 300px;
+    /*width: 500px;*/
+    border-radius: 5%;
+}
+.caja2 {
+    /*flex: 2;*/
+    margin: 0 10px;
+    background-image: url("./servicios.jpg");
+    /*background-color:yellow;*/
+    height: 300px;
+    /*width: 500px;*/
+    border-radius: 5%;
+}
+.caja3 {
+    /*flex: 3;*/
+    margin: 0 10px;
+    background-image: url("./socios.jfif");
+    /*background-color:red;*/
+    height: 300px;
+    /*width: 500px;*/
+    border-radius: 5%;
+}
+
+
+.caja4 {
+    /*flex: 1;*/
+    /*margin: 0 10px;*/
+    background-color:beige;
+    /*height: 400px;*/
+    width: 500px;
+    border-radius: 5%;
+    
+}
+.caja5 {
+    /*flex: 2;*/
+    /*margin: 0 10px;*/
+    background-color:beige;
+    height: 400px;
+    width: 500px;
+    border-radius: 5%;
+}
+.caja6 {
+    /*flex: 3;*/
+    /*margin: 0 10px;*/
+    background-color:beige;
+    height: 400px;
+    width: 500px;
+    border-radius: 5%;
+}
+
+
+.adicional{
+    display: flex;
+    flex-wrap:wrap-reverse;
+    margin: 0 50px;
+    height: 200%;
+    background-color:black;
+    border-radius: 16px;
+    /*justify-content: space-between;*/
+    justify-content: center;
+}
+
+
+.fondoadicional{
+    background-color: black;
+}
+
+.piepagina {
+    background-color: blue;
+    width: 2000px;
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 0 auto; /* Esto va a centrar de manera horizontal*/
+    
+}
+
+
+.piedepagina ul {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    line-height: 100px;
+    padding-left: 2rem;
+    list-style-type: none;
+   }
+
+.piedepagina li:hover {
+    color:chartreuse;
+    cursor: pointer;
+    list-style-type:none;
+    padding-left: 2rem;
+  
+    }
+
+   
+@media screen and (max-width:767px) {
+    .nav{
+     display: none;
+    }
+    .header-content > h1  {
+     display: none;
+    }
+    .one{
+     order:1;
+    }
+    .jumbotron{
+     flex-direction: column;
+    }
+    .blog1{
+     gap:80px;
+     margin: 0 auto;
+    }
+
+    .caja1{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .caja2{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .caja3{
+        width: 300px;
+        margin: 0 auto;
+    }
+ }
+
+ 
+
+@media only screen and (max-width:321px)  {
+    .renglon {
+        width: 200px;
+    }
+    .nav{
+        display: none
+       }
+       .header-content > h1  {
+        display: none
+       }
+       .one{
+        order:1
+       }
+       .jumbotron{
+        flex-direction: column
+       }
+       .blog1{
+        gap:80px
+       }
+
+       .tituloblog{
+        font-size:x-large;
+       }
+
+    .caja1{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .caja2{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .caja3{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .caja4{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .venn1 {
+        
+        width: 100px;
+        height: 100px;
+       
+    }
+    
+    .venn2 {
+        
+        width: 100px;
+        height: 100px;
+    }
+
+    .venn3 {
+        
+        width: 100px;
+        height: 100px;
+        }
+
+      
+
+
+}

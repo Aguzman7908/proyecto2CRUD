@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Proyecto 2 CRUD">
+    <title>Javascript</title>
+    <link href="./styles.css" rel="stylesheet">
+    
+    <title>GRUPO EMPRESARIAL DE SISTEMAS Y TELECOMUNICACIONES EN VERACRUZ</title> 
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+       <img src="logo.jfif" alt="">
+       <h1><center>GRUPO EMPRESARIAL DE SISTEMAS & TELECOMUNICACIONES EN VERACRUZ</center></h1>
+       <nav class="nav">
+         <div>
+           <ul>
+               <li class="letra">Departamentos</li>
+               <li>Ayuda</li>
+               <li>Acerca de ....</li>
+               <li>|</li>
+               <li>Registrate</li>
+               <li>Iniciar Sesión</li>
+           </ul>
+          </div>
+       </nav>
+       </div>
+   </header>
+
+    
+    <h1 class="title">Ingresa tus datos y obten información relevante acerca de nuestros Productos y Servicios</h1>
+    <label>Nombre: </label>
+    <input id="inputNombre" type="text"><br><br>
+    <label>Apellido: </label>
+    <input id="inputApellido" type="text"><br><br>
+    <label>Correo    :        </label>
+    <input id="inputEmail" type="text"><br><br>
+    <label>Imagen  :        </label>
+    <input id="inputImagen" type="text"><br><br>
+    
+    <button id="boton" onclick="nuevoUsuario()"> Agregar Usuario </button>
+    <button id="boton" onclick="actualizarUsuario()"> Actualizar Usuario </button><br><br><br><br>
+
+ 
+    <center>
+    <table border="1" class="default">
+      <thead><tr><th>Nombre</th>
+                 <th>Apellido</th>
+                 <th>Email</th>
+                 <th>Imagen</th>
+                 <th>Acciones</th>
+            </tr>
+      </thead>
+      <tbody id="lista">
+      </tbody>
+    </table>
+  </center>
+  <footer class="piedepagina">
+        
+    <h4>Redes sociales</h4>
+    <a href="#">Facebook</a>
+    <a href="#">Tiwtter</a>
+    <a href="#">Whastapp</a>
+    <nav class="nav">
+        <div class="piedepagina">
+          <ul>
+              <li class="letra">Departamentos</li>
+              <li>Catalgos</li>
+              <li>Servicios</li>
+              <li>|</li>
+              <li>Nosotros</li>
+          </ul>
+        </div>
+        <div class="piedepagina">
+            <ul>
+                <li class="letra">Recursos Humanos</li>
+                <li>Networking</li>
+                <li>Consultoria</li>
+                <li>|</li>
+                <li>Quienes somos ...</li>
+            </ul>
+        </div>
+
+      </nav>
+    <center>
+    <h4>2022 GESIVT. Todos los derechos reservados ®. Página para fines acádemicos </h4>
+    <h5>Autor: Angel Guzman Acosta</h5>
+    <h5>guzman_acosta_angel@hotmail.com</h5>
+    </center>
+</footer>         
+  
+    <script src="./crud.js" type= "text/javascript"></script>
+  </body>
+</html>
