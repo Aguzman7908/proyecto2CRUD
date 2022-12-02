@@ -253,7 +253,7 @@ cuadroTexto{
     .one{
      order:1;
     }
-    .jumbotron{
+    .tituloblog{
      flex-direction: column;
     }
     .blog1{
@@ -290,18 +290,15 @@ cuadroTexto{
        .one{
         order:1
        }
-       .jumbotron{
-        flex-direction: column
+       .tituloblog{
+        flex-direction: column;
+        margin: auto;
        }
        .blog1{
         gap:80px
        }
 
-       .tituloblog{
-        font-size:x-large;
-       }
-
-    .caja1{
+       .caja1{
         width: 100%;
         margin: 0 auto;
     }
