@@ -260,7 +260,9 @@ cuadroTexto{
      gap:80px;
      margin: 0 auto;
     }
-
+    .boton{
+        width: 40px;
+        margin: 0 auto;
     
  }
 
@@ -296,7 +298,7 @@ cuadroTexto{
         margin: 0 auto;
     }
     .boton{
-        width: 10px;
+        width: 40px;
         margin: 0 auto;
     }
     .caja4{
