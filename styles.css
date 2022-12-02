@@ -39,6 +39,13 @@ img{
     line-height: 100px;
    }
 
+   .input1 {
+    width:15 em;
+    size: 30;
+    
+
+}   
+
 .header-content li:hover {
     color:chartreuse;
     cursor: pointer;
@@ -90,23 +97,13 @@ cuadroTexto{
     
   }
 
-  .two {
-    /*flex: 1 2 auto;*/
-    flex: 2;
-    background-image: url("./jumbotron.jpg"); /* me sirve para poner la imagen*/
-    /*height: 700px;*/
-    background-size: cover;
-  }
-
-  .sm{
-    display: flex;
-    justify-content: space-around
-  }
+  
   .cuadrotexto{
     border-radius: 5px;
-    height: 90%;
-    width: 90%;
-    font-size: 90%;
+    height: 50px;
+    width: 400px;
+    font-size:x-large;
+    
   }
   .boton{
     display:flexbox;
@@ -142,14 +139,10 @@ cuadroTexto{
     
     
 }
-.caja1 {
-    /*flex: 1;*/
-    /*margin: 0 10px;*/
-    background-image: url("./telecom.jpg");
-    /*background-color:green;*/
-    height: 300px;
-    /*width: 500px;*/
-    border-radius: 5%;
+.input1 {
+   
+    width: 100px;
+    
 }
 .caja2 {
     /*flex: 2;*/
@@ -171,31 +164,6 @@ cuadroTexto{
 }
 
 
-.caja4 {
-    /*flex: 1;*/
-    /*margin: 0 10px;*/
-    background-color:beige;
-    /*height: 400px;*/
-    width: 500px;
-    border-radius: 5%;
-    
-}
-.caja5 {
-    /*flex: 2;*/
-    /*margin: 0 10px;*/
-    background-color:beige;
-    height: 400px;
-    width: 500px;
-    border-radius: 5%;
-}
-.caja6 {
-    /*flex: 3;*/
-    /*margin: 0 10px;*/
-    background-color:beige;
-    height: 400px;
-    width: 500px;
-    border-radius: 5%;
-}
 
 
 .adicional{
@@ -261,11 +229,19 @@ cuadroTexto{
      margin: 0 auto;
     }
     .boton{
-        width: 40px;
+        width: 100px;
+        height: 40px;
         margin: 0 auto;
-    
- }
+     }
 
+     .cuadrotexto {
+   
+        border-radius: 5px;
+        height: 10px;
+        width: 100px;
+        font-size:small;
+    }   
+}
  
 
 @media only screen and (max-width:321px)  {
@@ -289,23 +265,23 @@ cuadroTexto{
         gap:80px
        }
 
-       .caja1{
-        width: 100%;
-        margin: 0 auto;
-    }
-    .caja2{
-        width: 100%;
-        margin: 0 auto;
-    }
+       
     .boton{
-        width: 40px;
+        
+       
+        width: 100px;
+        height: 40px;
         margin: 0 auto;
+        font-size: small;
     }
-    .caja4{
-        width: 100%;
-        margin: 0 auto;
-    }
-
+    .cuadrotexto {
    
+        border-radius: 5px;
+        height: 10px;
+        width: 100px;
+        font-size:small;
+    }   
+ 
 
 }
+
